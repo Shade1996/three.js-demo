@@ -35,9 +35,7 @@
     "build:css": "cross-env TAILWIND_MODE=build NODE_ENV=production postcss src/styles/tailwind.css -o src/styles/index.css",
     "watch:css": "cross-env TAILWIND_MODE=watch NODE_ENV=development postcss src/styles/tailwind.css -o src/styles/index.css --watch",
     "react-scripts:start": "sleep 5 && react-scripts start",
-    "react-scripts:build": "react-scripts build",
-    "cosmos": "cosmos",
-    "cosmos:export": "cosmos-export"
+    "react-scripts:build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -55,7 +53,6 @@
     ]
   },
   "devDependencies": {
-    "@types/three": "^0.127.1",
-    "react-cosmos": "^5.6.2"
+    "@types/three": "^0.127.1"
   }
 }
